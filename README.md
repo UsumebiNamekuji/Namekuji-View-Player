@@ -4,11 +4,11 @@ WindowsのPCモニターで、通常動画とVR180・VR360動画を見るため�
 
 ## ダウンロード・導入
 
-現在、v0.1.0の公開準備中です。
-
-公開後は [Releases](https://github.com/UsumebiNamekuji/Namekuji-View-Player/releases) から `NamekujiViewPlayer-Setup-v0.1.0-x64.exe` をダウンロードして実行し、スタートメニューの「Namekuji View Player」から起動してください。.NETや再生エンジンを別途導入する必要はありません。
+[v0.1.0のRelease](https://github.com/UsumebiNamekuji/Namekuji-View-Player/releases/tag/v0.1.0) から `NamekujiViewPlayer-Setup-v0.1.0-x64.exe` をダウンロードして実行し、スタートメニューの「Namekuji View Player」から起動してください。.NETや再生エンジンを別途導入する必要はありません。
 
 対応環境は **Windows 11 x64** です。Direct3D 11を利用できるGPUとドライバーが必要です。MP4・MKVを既定のアプリにする場合は、Windowsの「既定のアプリ」で選択してください。削除はWindowsの「インストールされているアプリ」から行えます。
+
+同梱コンポーネントの対応ソースも収録しているため、配布ファイルは1GBを超えます。ダウンロードとインストール用に数GBの空き容量を確保してください。ソースの展開・ビルドは通常の利用には不要です。
 
 ## 基本操作
 
@@ -37,7 +37,7 @@ WindowsのPCモニターで、通常動画とVR180・VR360動画を見るため�
 - VRは正距円筒のVR180・VR360の単眼／左右分割（SBS）が対象です。魚眼、EAC、上下分割、VRヘッドセット出力には対応しません。
 - VRサムネイルは選択した眼の画像で、現在の視点には追従しません。
 - 再生できる形式、コマ戻しの精度、再生性能は動画とPC環境によって異なります。高解像度VRや1080p60の長時間再生性能は未確認です。
-- 混在DPI・複数モニターでの表示や操作は未確認です。OSが予約しているキーの組み合わせは利用できない場合があります。
+- 別のクリーンなWindows PC、混在DPI・複数モニターでの表示や操作は未確認です。OSが予約しているキーの組み合わせは利用できない場合があります。
 - インストーラーにはコード署名がありません。Windowsが警告を表示する場合があります。
 
 設定は `%LOCALAPPDATA%\Namekuji\VideoPlayer\` に保存します。アンインストール時に設定を残すことも選べます。
